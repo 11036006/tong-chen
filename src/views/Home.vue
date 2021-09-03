@@ -54,13 +54,13 @@ export default {
        class:"所有商品",
        commodity:[
          {
-           name:"大明蝦",img:"https://starlight659.webnode.tw/_files/200000008-6259862599/450/d354e94702ebe346066c770784cd7703-max-w-1024.jpg?ph=751cc27414",price:"2000"
+          id:1,name:"大明蝦",img:"https://starlight659.webnode.tw/_files/200000008-6259862599/450/d354e94702ebe346066c770784cd7703-max-w-1024.jpg?ph=751cc27414",price:"2000"
          },
          {
-           name:"冷凍母香魚",img:"https://starlight659.webnode.tw/_files/200000001-9930499306/450/dafd3f0eb3d35f8fd6ae6301b8ebddea-cr-260x260.jpg?ph=751cc27414",price:"455"
+          id:2,name:"冷凍母香魚",img:"https://starlight659.webnode.tw/_files/200000001-9930499306/450/dafd3f0eb3d35f8fd6ae6301b8ebddea-cr-260x260.jpg?ph=751cc27414",price:"455"
          },
          {
-             name:"冷凍公香魚",img:"https://starlight659.webnode.tw/_files/200000003-84cf784cf9/450/2647f34ffec1cff9faca76638d92fcc6-max-w-1024.jpg?ph=751cc27414",price:"250" 
+         id:3,name:"冷凍公香魚",img:"https://starlight659.webnode.tw/_files/200000003-84cf784cf9/450/2647f34ffec1cff9faca76638d92fcc6-max-w-1024.jpg?ph=751cc27414",price:"250" 
          },
          
        ]},{class:"蝦"},{class:"貝"},{class:"全魚"}]

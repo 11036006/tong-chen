@@ -1,5 +1,5 @@
 <template>
-    
+      
     <v-app-bar
       app
       color="white"
@@ -11,7 +11,7 @@
           color="grey darken-1"
           size="32"
         ></v-avatar>
-        <h2>鴻升科技公司</h2>
+        <h2>鴻升科技有限公司</h2>
         <v-btn
           v-for="link in links"
           :key="link"
@@ -21,16 +21,21 @@
         </v-btn>
 
         <v-spacer></v-spacer>
+        
+      
+        <v-btn icon  to="/">
+        <v-icon>mdi-home</v-icon>
+      </v-btn>
 
-        <v-responsive max-width="260">
-          <v-text-field
-            dense
-            flat
-            hide-details
-            rounded
-            solo-inverted
-          ></v-text-field>
-        </v-responsive>
+      <v-btn icon to="/about">
+        <v-icon>mdi-pharmacy</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-cart</v-icon>
+      </v-btn>
+
+
       </v-container>
     </v-app-bar>
 </template>

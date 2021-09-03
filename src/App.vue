@@ -7,10 +7,9 @@
     </v-main>
 
   <footer  :class="$style.footer">
-    <h3>
-
-
-    </h3>
+   <v-text>電子郵件： useepays@gmail.com</v-text>
+   <br>
+   <v-text>電話號碼： +886-981-280-323</v-text>
     <!-- A footer for the page. -->
   </footer>
   </v-app>
@@ -34,7 +33,7 @@ export default {
    background-color: #333;
    height: 80px;
    margin-top: 20px;
-
+   color: azure;
   
 }
 </style>
