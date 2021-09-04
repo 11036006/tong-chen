@@ -1,9 +1,9 @@
 <template>
-<div class="d-flex justify-start mb-6">
+<div class="d-flex flex-row bd-highlight mb-3 flex-wrap">
   
   <v-card
     :loading="loading"
-    max-width="30%"
+    max-width="200px"
     v-for="item in data" :key="item"
     :to="{
           name: 'Product',
@@ -23,8 +23,8 @@
     <v-card-text >
         {{item.price}}
     </v-card-text>
-
-
+   
+    
   
   </v-card>
  </div>

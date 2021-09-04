@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Product from '../views/Product.vue'
+import Connection from '../views/Connection.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -23,6 +24,12 @@ const routes = [
     path:"/product",
     name:"Product",
     component: Product,
+    props:true,
+  },
+  {
+    path:"connection",
+    name:"Connection",
+    component: Connection,
     props:true,
   }
 ]

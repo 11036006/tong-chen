@@ -3,6 +3,7 @@
  <br>
 <v-col >
 <v-img
+   max-widh="50%"
   :src="newDate.img"
 ></v-img>
 </v-col>
