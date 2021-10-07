@@ -16,7 +16,7 @@
 export default {
   data() {
     return {
-      img: "https://starlight659.webnode.tw/_files/200000010-3160031602/700/20170925181718-1e31b17d.jpg?ph=751cc27414",
+      img: "http://n.sinaimg.cn/translate/273/w600h473/20180905/Ffn_-hitesuy7663033.jpg",
     };
   },
 };

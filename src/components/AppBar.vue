@@ -2,7 +2,9 @@
   <div>
     <v-app-bar app color="white" flat>
       <v-container class="py-0 fill-height">
-        <h2>鴻升科技有限公司</h2>
+        
+        <h2 >鴻升科技有限公司</h2>
+        
 
         <v-spacer></v-spacer>
         <div :class="$style.menu">
@@ -13,16 +15,16 @@
           <v-btn icon to="/about">
             <v-icon>mdi-information</v-icon>
           </v-btn>
-          <v-btn icon to="/connection">
-            <v-icon>mdi-pharmacy</v-icon>
-          </v-btn>
+          
 
           <v-btn icon>
             <v-icon>mdi-cart</v-icon>
           </v-btn>
         </div>
         <div :class="$style.drawer">
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer" ></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon
+            @click.stop="drawer = !drawer"
+          ></v-app-bar-nav-icon>
         </div>
       </v-container>
     </v-app-bar>
@@ -33,31 +35,23 @@
           active-class="deep-purple--text text--accent-4"
         >
           <v-list-item to="/">
-            <v-btn icon> 
+            <v-btn icon>
               <v-icon>mdi-home</v-icon>
-              
             </v-btn>
           </v-list-item>
 
           <v-list-item to="/about">
-            <v-btn icon >
+            <v-btn icon>
               <v-icon>mdi-information</v-icon>
-            
             </v-btn>
           </v-list-item>
 
-          <v-list-item to="/connection">
-            <v-btn icon >
-              <v-icon>mdi-pharmacy</v-icon>
-         
-            </v-btn>
-          </v-list-item>
+          
 
           <v-list-item>
             <v-btn icon>
               <v-icon>mdi-cart</v-icon>
             </v-btn>
-            
           </v-list-item>
         </v-list-item-group>
       </v-list>

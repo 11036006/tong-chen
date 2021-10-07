@@ -11,7 +11,12 @@
     <footer :class="$style.footer">
       <v-text>電子郵件： useepays@gmail.com</v-text>
       <br />
-      <v-text>電話號碼： +886-981-280-323</v-text>
+      <v-text>電話號碼： +886-981-280-323   </v-text>
+     
+      <v-text>統編： 42898323 </v-text>
+      <br/>
+      <v-text>公司地址：台中市南屯區五權西路二段666號6樓之4</v-text>
+       <p>© 2021 Hong Sheng</p>
       <!-- A footer for the page. -->
     </footer>
   </v-app>
@@ -40,11 +45,13 @@ export default {
 }
 .footer {
   background-color: #333;
-  height: 80px;
+  height: 100px;
+  font-size: 15px;
   color: azure;
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding-left: 1%;
 
 }
 </style>
