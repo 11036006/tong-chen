@@ -3,7 +3,7 @@
     <v-app-bar app color="white" flat>
       <v-container class="py-0 fill-height">
         
-        <h2 >鴻升科技有限公司</h2>
+        <h2 >鴻升開發有限公司</h2>
         
 
         <v-spacer></v-spacer>
