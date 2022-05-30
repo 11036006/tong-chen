@@ -162,6 +162,7 @@ export default {
 </script>
 <style module>
 /* 在螢幕寬度 768px 以下，就會觸發menu 消失 */
+
 @media (max-width: 768px) {
   .list {
     display: none;

@@ -9,13 +9,13 @@
     </v-main>
 
     <footer :class="$style.footer">
-      <v-text>電子郵件： useepays@gmail.com</v-text>
+      <v-text>電子郵件：&nbsp;hogsheng@gmail.com</v-text>
       <br />
-      <v-text>電話號碼： +886-981-280-323   </v-text>
+      <v-text>電話號碼：&nbsp;0986-830051 &nbsp;</v-text>
      
-      <v-text>統編： 42898323 </v-text>
+      <v-text>統編：&nbsp;42898323 </v-text>
       <br/>
-      <v-text>公司地址：台中市南屯區五權西路二段666號6樓之4</v-text>
+      <v-text>公司地址：&nbsp;台中市南屯區五權西路二段666號6樓之4</v-text>
        <p>© 2021 Hong Sheng</p>
       <!-- A footer for the page. -->
     </footer>

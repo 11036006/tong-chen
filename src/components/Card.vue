@@ -5,6 +5,7 @@
     
     max-width="200px"
     max-height="400px"
+    style="margin:10px"
     v-for="item in data" :key="item.id"
     :to="{
           name: 'Product',
@@ -21,7 +22,7 @@
     <v-card-title>{{item.name}}</v-card-title>
 
     <v-card-text >
-        {{item.price}}
+        {{item.price}}元
     </v-card-text>
    
     
