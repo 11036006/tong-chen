@@ -3,8 +3,8 @@
   
   <v-card
     
-    max-width="200px"
-    max-height="400px"
+    width="260px"
+    height="400px"
     style="margin:10px"
     v-for="item in data" :key="item.id"
     :to="{
@@ -16,7 +16,7 @@
 
     <v-img
       :src="item.img"
-      max-height="120"
+      height="250"
     ></v-img>
 
     <v-card-title>{{item.name}}</v-card-title>

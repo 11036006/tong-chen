@@ -2,7 +2,7 @@
   <v-app :class="$style.body">
     <AppBar />
 
-    <v-main class="blue-grey lighten-2" >
+    <v-main class="blue-grey lighten-2"  >
         <div :class="$style.main">
         <router-view />
         </div>
@@ -36,7 +36,7 @@ export default {
 </script>
 <style module>
 .body{
-  height: 100vh;
+  height: 100%;
   margin: 0;
   width: 100%;
 }
@@ -46,12 +46,12 @@ export default {
 }
 .footer {
   background-color: #333;
-  height: 100px;
   font-size: 15px;
   color: azure;
-  position: absolute;
+  position:fixed;
   bottom: 0;
   width: 100%;
+
   padding-left: 1%;
 
 }
