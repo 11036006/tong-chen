@@ -4,7 +4,7 @@
 <v-col >
 <v-img
    max-width="600px"
-   max-height="500px"
+   max-height="550px"
   :src="newDate.img"
 ></v-img>
 </v-col>

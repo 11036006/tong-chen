@@ -36,12 +36,13 @@ export default {
 </script>
 <style module>
 .body{
-  height: 100%; /*外層高度100%*/
+  height: 100vh;
   margin: 0;
   width: 100%;
 }
 .main{
   padding-bottom: 50px; 
+
 }
 .footer {
   background-color: #333;
@@ -53,5 +54,12 @@ export default {
   width: 100%;
   padding-left: 1%;
 
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+  
 }
 </style>

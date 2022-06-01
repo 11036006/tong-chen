@@ -15,6 +15,12 @@
                 <v-list-item-title> 海產產品 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
+                 <v-list-item link v-on:click="gaTure">
+              <v-list-item-content>
+                <v-list-item-title> 遊戲產品</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+           
            
                <v-divider class="my-2"></v-divider>
             <v-list-item link color="grey lighten-4"> </v-list-item>
@@ -30,6 +36,11 @@
       <v-col cols="10" v-if="fruit">
         <v-sheet min-width="200">
           <Card :data="data[1].commodity" :class="$style.card" />
+        </v-sheet>
+      </v-col>
+       <v-col cols="10" v-if="game">
+        <v-sheet min-width="200">
+          <Card :data="data[2].commodity" :class="$style.card" />
         </v-sheet>
       </v-col>
     </v-row>
@@ -136,6 +147,43 @@ export default {
             }
           ],
         },
+         {
+          class: "遊戲商品",
+          commodity: [
+            {
+              id: 1,
+              name: "MyCard 10000虛擬點數卡",
+              img: "https://media.etmall.com.tw/nximg/002433/2433207/2433207-1_xxl.jpg?t=18365124091",
+              price: "9800",
+            },
+            {
+              id: 2,
+              name: "MyCard 5000點虛擬點數卡",
+              img: "https://media.etmall.com.tw/nximg/002433/2433206/2433206-1_xxl.jpg?t=18365109496",
+              price: "4750",
+            },
+            {
+              id: 3,
+              name: "MyCard 3000點虛擬點數卡",
+              img: "https://media.etmall.com.tw/nximg/002433/2433205/2433205-1_xxl.jpg?t=18365109497",
+              price: "1100",
+            },
+            {
+              id: 4,
+              name: "MyCard 500點點數卡",
+              img: "https://i3.momoshop.com.tw/1637072184/goodsimg/0005/766/767/5766767_R.webp",
+              price: "475",       
+            },
+            {
+              
+              id: 5,
+              name: "MyCard 150點虛擬點數卡",
+              img: "https://media.etmall.com.tw/nximg/002433/2433227/2433227-1_xxl.jpg?t=18365105568",
+              price: "143",       
+            
+            }
+          ],
+        },
       ],
     };
   },
@@ -148,6 +196,7 @@ export default {
 
       if (this.fruit) {
         this.seafood = false;
+        this.game =false;
       }
     },
     seTure() {
@@ -155,8 +204,16 @@ export default {
 
       if (this.seafood) {
         this.fruit = false;
+        this.game =false;
       }
     },
+    gaTure(){
+      this.game =true;
+      if(this.game){
+          this.seafood = false;
+          this.fruit = false;
+      }
+    }
   },
 };
 </script>
