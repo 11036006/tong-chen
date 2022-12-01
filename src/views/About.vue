@@ -2,12 +2,12 @@
   <v-row class="pa-4">
     <br />
     <v-col>
-      <v-img height="500px" :src="img"></v-img>
+      <v-img height="450px" width="800px"  :src="img"></v-img>
     </v-col>
     <v-col>
-      <h1>提供您最方便點數交易</h1>
-      <h3>雖然沒有華麗的包裝，沒有過多的文字，只抱持著一股堅持，帶給您更便</h3>
-      <h3>利的交易模式，是我們唯一的使命。 </h3>
+      
+      <h3>提供多樣品牌商品線上展售，秉持著以客為尊的精神，提供更多樣化商品，滿足客戶更全面的服務需求。</h3>
+    
     </v-col>
   </v-row>
 </template>
@@ -16,7 +16,7 @@
 export default {
   data() {
     return {
-      img: "https://storage.googleapis.com/www-cw-com-tw/article/202102/article-6033500eb90df.jpg",
+      img: "https://img.technews.tw/wp-content/uploads/2021/12/14143550/paper.jpg",
     };
   },
 };

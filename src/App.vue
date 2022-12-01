@@ -2,21 +2,19 @@
   <v-app :class="$style.body">
     <AppBar />
 
-    <v-main class="blue-grey lighten-2"  >
+    <v-main   >
         <div :class="$style.main">
         <router-view />
         </div>
     </v-main>
 
     <footer :class="$style.footer">
-      <v-text>電子郵件：&nbsp;hogsheng@gmail.com</v-text>
-      <br />
-      <v-text>電話號碼：&nbsp;0986-830051 &nbsp;</v-text>
-     
-      <v-text>統編：&nbsp;42898323 </v-text>
+      <v-text>電子郵件：&nbsp;red_ocean2021@outlook.com</v-text>
+      <br />     
+      <v-text>統編：&nbsp;83130599 </v-text>
       <br/>
-      <v-text>公司地址：&nbsp;台中市南屯區五權西路二段666號6樓之4</v-text>
-       <p>© 2021 Hong Sheng</p>
+      <v-text>公司地址：&nbsp;台中市西屯區西屯路二段256巷6號2樓之2</v-text>
+       <p>© 2022 Tong-Chen</p>
       <!-- A footer for the page. -->
     </footer>
   </v-app>
@@ -45,12 +43,13 @@ export default {
 
 }
 .footer {
-  background-color: #333;
+  background-color: #6b778d;
   font-size: 15px;
   color: azure;
   position:fixed;
   bottom: 0;
   width: 100%;
+  height: 85px;
 
   padding-left: 1%;
 

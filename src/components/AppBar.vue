@@ -1,9 +1,9 @@
 <template>
   <div>
-    <v-app-bar app color="white" flat>
+    <v-app-bar app color="#bbded6" flat>
       <v-container class="py-0 fill-height">
     
-            <h2 >鴻升開發有限公司</h2>
+            <h2 >同晨科技有限公司</h2>
     
       
         
