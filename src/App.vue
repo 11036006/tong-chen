@@ -10,7 +10,9 @@
 
     <footer :class="$style.footer">
       <v-text>電子郵件：&nbsp;red_ocean2021@outlook.com</v-text>
-      <br />     
+      <br />
+      <v-text>電話號碼：&nbsp;0902-073996 &nbsp;</v-text>
+     
       <v-text>統編：&nbsp;83130599 </v-text>
       <br/>
       <v-text>公司地址：&nbsp;台中市西屯區西屯路二段256巷6號2樓之2</v-text>
@@ -43,14 +45,13 @@ export default {
 
 }
 .footer {
-  background-color: #6b778d;
+  background-color: #344D67;
   font-size: 15px;
   color: azure;
   position:fixed;
   bottom: 0;
   width: 100%;
-  height: 85px;
-
+  height: 90px;
   padding-left: 1%;
 
 }
